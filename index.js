@@ -21,7 +21,7 @@ app.get('/files/data', async (req, res) => {
     }
   }
 
-  if (flag){
+  if (flag) {
     res.json(await palindromo.getDataFiles())
   }
 })
